@@ -1,0 +1,14 @@
+{
+  "name": "cypress-iframe-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^3.1.5",
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "serve": "node app.js",
+    "test": "cypress open"
+  }
+}
