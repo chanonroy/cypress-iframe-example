@@ -26,7 +26,7 @@
 
 Cypress.Commands.add('iframe', { prevSubject: 'element' }, $iframe => {
   return new Cypress.Promise(resolve => {
-      $iframe.ready(function() {
+      $iframe.load(function() {
         resolve($iframe.contents().find('body'));
       });
   });
